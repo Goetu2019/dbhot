@@ -1,0 +1,34 @@
+<html>
+	<body>
+		<form name="myForm" id="myFrom" method="get" action="userReg.do"><!--action="userReg.do"提交路径-->
+			<!--在HTML和HTTP中，GET和POST是两种常见的请求方法，它们主要用于客户端与服务器之间的数据交互。它们的区别主要体现在以下几个方面：
+
+1. 参数传递方式
+GET：通过URL传递参数，参数会附加在URL后面，以?分隔，多个参数用&连接。例如：http://example.com/page?name=John&age=30。
+POST：参数放在请求体中，不显示在URL中。
+2. 安全性
+GET：由于参数暴露在URL中，容易被浏览器缓存、记录或被他人看到，因此不适合传递敏感信息。
+POST：参数保存在请求体中，相对更安全，适合传递敏感数据（例如密码）。
+3. 数据长度限制
+GET：受到URL长度的限制（具体长度取决于浏览器和服务器的限制，一般在2048字符以内）。
+POST：理论上没有数据长度限制，适合上传大数据或复杂数据。
+			-->
+			用户名：<input size="50"/>
+			<br/>
+			密&nbsp;&nbsp;&nbsp;码：<input type="passwaord"></input>
+			<br/>
+			隐藏文本框：<input type="hidden">
+			<button type="button">我一会</button>
+			<input type="button" value="1230000000">
+			<input type="submit" value="提交">
+			<button type="submit">提交1</button>
+			<br/>
+			文件上传：<input type="file">
+			</br>
+			自我介绍:<input type="textarea">123</input>
+			<br/>
+			<textarea value="123"></textarea>
+			<button>123</button>
+		</form>
+	</body>
+</html>
